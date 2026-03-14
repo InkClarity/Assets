@@ -1,0 +1,17 @@
+---
+title: 'Riverbed Collective'
+category: ['Websites']
+image: '@/content/portfolio/riverbed-collective/Cover.png'
+statValue: '<1s'
+statDescription: 'Site Load Time'
+padding: true
+backgroundColor: '#94589C'
+---
+
+import { Image } from 'astro:assets';
+import Logo from './Logo.png';
+import RiverbedCollectiveWebsite from './Website.png';
+
+<Image src={Logo} alt="Riverbed Collective Logo" width={650} layout="constrained" format="avif" style={{ borderRadius: 'var(--BR)', border: '1px solid #CDCFFF' }} /> 
+
+<Image src={RiverbedCollectiveWebsite} alt="Riverbed Collective Website" format="avif" priority style={{ borderRadius: 'var(--BR)', border: '1px solid #CDCFFF' }} />
